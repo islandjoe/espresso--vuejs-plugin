@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<syntax name="language-root.vue.with-html">
+
+    <zones>
+        <!-- Root-level <zone> and <include> elements go here -->
+        <zone>\bslot\b</zone>
+        <zone>\btemplate\b</zone>
+        <zone>\bcomponent\b</zone>
+    </zones>
+
+    <!-- The (optional) <library> tag contains collections of reusable zones -->
+    <library>
+        <!-- <collection> elements go here -->
+    </library>
+
+</syntax>
